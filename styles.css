@@ -6,22 +6,26 @@
 body{
     margin: 0;
     padding: 0;
+    font-family: "Mulish", sans-serif;
 }
 main{
-    font-family: "Mulish", sans-serif;
-    max-width: 1170px;
-    margin: 0 200px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 /* header styles */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin: 50px 200px;
+    margin: 50px 260px;
 }
 .nav-item{
     display: flex;
     align-items: center;
+}
+.nav-list{
+    width: 1200px;
+    margin: 50px auto;
 }
 nav ul{
     display: flex;
@@ -55,3 +59,59 @@ nav ul a{
     font-size: 18px;
     font-weight: 700;
 }
+.header-banner{
+    background-image: url('Images/Group\ 13\ \(1\)\ \(1\).png');
+    width: 1170px;
+    height: 500px;
+    margin: 0 auto;
+    border-radius: 8px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+.form-item {
+    display: flex;
+    border-radius: 8px;
+    border: 0;
+    padding-top: 60px;
+    justify-content: center;
+    
+}
+.text-input{
+    width: 170px;
+    background-color: aliceblue;
+    margin-right: 20px;
+    padding: 15px 50px 15px 15px;
+    border-radius: 10px;
+}
+.form-item input{
+    background-color: aliceblue;
+    width: 170px;
+    margin-right: 20px;
+    padding: 15px 50px 15px 15px;
+    border-radius: 10px;
+}
+
+.banner-title{
+    color: rgb(255, 255, 255);  
+    font-size: 54px;
+    font-weight: 800;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-description{
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    font-weight: 400;
+    text-align: center;
+}
+.search-btn{
+    width: 170px;
+    background-color: orange;
+    margin-right: 20px;
+    padding: 15px 50px 15px 15px;
+    border-radius: 10px;
+
+}
+
+
